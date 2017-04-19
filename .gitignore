@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CountdownRole/bin/Debug
+/CountdownRole/obj/Debug
+/CountdownService/bin/Debug
+/CountdownService/obj/Debug
+/DatabaseUtilities/obj
+/LockboxAPI/bin
+/LockboxAPI/obj/Debug
+*.user
+/LockboxAPI.Tests/obj/Debug
+/LockBoxSite/bin
+/LockBoxSite/obj/Debug
+/packages
+/.vs
