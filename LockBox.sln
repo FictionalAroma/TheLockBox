@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownRole", "CountdownR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockBoxSite", "LockBoxSite\LockBoxSite.csproj", "{B559EBFB-1E6E-4797-9C8E-D5F8563A4157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockboxAPI", "LockboxAPI\LockboxAPI.csproj", "{DA2AE320-65C1-4290-A246-CB6C84C83188}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockboxAPI.Tests", "LockboxAPI.Tests\LockboxAPI.Tests.csproj", "{61F8D890-0831-41B0-ADB3-F2417CF1DBCE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2A7BE0CC-6DBC-4D2D-A856-7F890B7DA744}"
 EndProject
 Global
@@ -33,19 +29,8 @@ Global
 		{B559EBFB-1E6E-4797-9C8E-D5F8563A4157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B559EBFB-1E6E-4797-9C8E-D5F8563A4157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B559EBFB-1E6E-4797-9C8E-D5F8563A4157}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA2AE320-65C1-4290-A246-CB6C84C83188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA2AE320-65C1-4290-A246-CB6C84C83188}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA2AE320-65C1-4290-A246-CB6C84C83188}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA2AE320-65C1-4290-A246-CB6C84C83188}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61F8D890-0831-41B0-ADB3-F2417CF1DBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61F8D890-0831-41B0-ADB3-F2417CF1DBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61F8D890-0831-41B0-ADB3-F2417CF1DBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61F8D890-0831-41B0-ADB3-F2417CF1DBCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{61F8D890-0831-41B0-ADB3-F2417CF1DBCE} = {2A7BE0CC-6DBC-4D2D-A856-7F890B7DA744}
 	EndGlobalSection
 EndGlobal
