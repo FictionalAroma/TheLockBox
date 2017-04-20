@@ -15,3 +15,8 @@
 /LockBoxSite/obj/Debug
 /packages
 /.vs
+/CountdownService/csx/Debug/roles/CountdownRole/approot/de
+/CountdownService/csx/Debug/roles/CountdownRole/approot
+/CountdownService/csx/Debug/roles/CountdownRole/base
+/CountdownService/csx/Debug
+/LockBoxAPI.Tests/bin/Debug
