@@ -20,7 +20,7 @@
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
     </Endpoints>
   </WebRole>
-  <WebRole name="LockboxAPI" vmsize="Small">
+  <WebRole name="LockBoxAPI" vmsize="Small">
     <Sites>
       <Site name="Web">
         <Bindings>

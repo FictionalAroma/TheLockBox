@@ -45,6 +45,14 @@
       <RoleName>CountdownRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
+    <ProjectReference Include="..\LockBoxAPI\LockBoxAPI.csproj">
+      <Name>LockBoxAPI</Name>
+      <Project>{428b87f0-06c6-4b30-a97b-ee178cc90be1}</Project>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <RoleName>LockBoxAPI</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
     <ProjectReference Include="..\LockBoxSite\LockBoxSite.csproj">
       <Name>LockBoxSite</Name>
       <Project>{b559ebfb-1e6e-4797-9c8e-d5f8563a4157}</Project>
