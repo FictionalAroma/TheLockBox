@@ -199,6 +199,7 @@
     <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\LockSessionController.cs" />
+    <Compile Include="Data\LockBoxDataHelpers.cs" />
     <Compile Include="Data\LockBoxModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -223,6 +224,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\Interfaces\ILockSessionHandler.cs" />
+    <Compile Include="Handlers\LockSessionHandler.cs" />
+    <Compile Include="Models\CreateSessionModel.cs" />
+    <Compile Include="Models\LockSessionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebRole.cs" />
   </ItemGroup>
@@ -252,7 +257,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>

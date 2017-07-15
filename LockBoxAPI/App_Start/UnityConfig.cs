@@ -1,6 +1,6 @@
 using System;
 using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
+using System.Data.Entity;
 
 namespace LockBoxAPI.App_Start
 {
@@ -37,6 +37,8 @@ namespace LockBoxAPI.App_Start
 
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
+            container.RegisterType<Data.LockboxEntities>();
+            container.RegisterType<Data.LockBoxDataAccess>();
         }
     }
 }
